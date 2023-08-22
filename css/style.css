@@ -1,0 +1,42 @@
+.package {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 26px;
+    transition: all 0.3s;
+    
+}
+
+.package:hover {
+    color: white;
+    background-color: #3F87F5;
+    box-shadow: 0px 42px 34px 0px rgba(63, 135, 245, 0.25);
+    transform: scaleY(1.15);
+
+}
+.package h1{
+    line-break: normal;
+}
+
+.package p {
+    color: #848199;
+    margin: 0;
+    font-size: 15px;
+
+}
+.package:hover p{
+    color: white;
+}
+
+.package:hover .cheker {
+    color: white;
+}
+.cheker{
+    color: #5243C2;
+}
+.hot-styl{
+    position: absolute;
+    right: 30px;
+    top: -15px;
+}
