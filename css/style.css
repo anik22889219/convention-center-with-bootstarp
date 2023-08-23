@@ -40,3 +40,18 @@
     right: 30px;
     top: -15px;
 }
+
+
+
+.position-giftbox{
+    position: fixed;
+    right:5px;
+    bottom: 50%;
+    z-index: 1;
+    border-left: solid 10px  #3F87F5;
+    
+    
+}
+.p-color{
+color:#6C6C6C ;
+}
