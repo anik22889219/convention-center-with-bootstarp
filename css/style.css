@@ -5,7 +5,7 @@
     padding: 30px;
     border-radius: 26px;
     transition: all 0.3s;
-    
+
 }
 
 .package:hover {
@@ -15,7 +15,8 @@
     transform: scaleY(1.15);
 
 }
-.package h1{
+
+.package h1 {
     line-break: normal;
 }
 
@@ -25,17 +26,20 @@
     font-size: 15px;
 
 }
-.package:hover p{
+
+.package:hover p {
     color: white;
 }
 
 .package:hover .cheker {
     color: white;
 }
-.cheker{
+
+.cheker {
     color: #5243C2;
 }
-.hot-styl{
+
+.hot-styl {
     position: absolute;
     right: 30px;
     top: -15px;
@@ -43,19 +47,24 @@
 
 
 
-.position-giftbox{
+.position-giftbox {
     position: fixed;
-    right:5px;
+    right: 5px;
     bottom: 50%;
     z-index: 1;
-    border-left: solid 10px  #3F87F5;
-    
-    
+    border-left: solid 10px #3F87F5;
+
+
 }
-.p-color{
-color:#6C6C6C ;
-font-size: 16px;
-font-weight: 400;
+
+.p-color {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
 
 
+}
+
+.footer-style {
+    height: 280px;
 }
